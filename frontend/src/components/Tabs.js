@@ -17,7 +17,6 @@ import {
 import classnames from "classnames";
 import ObjectDisplay from "./components/ObjectDisplay";
 
-
 export default class Tabs extends React.Component {
   constructor(props) {
     super(props);
@@ -70,5 +69,3 @@ export default class Tabs extends React.Component {
     );
   }
 }
-
-export default Tabs;
