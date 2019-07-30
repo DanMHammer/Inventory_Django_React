@@ -27,7 +27,7 @@ class App extends Component {
           <Col sm={{ size: 8, offset: 2 }}>
             {/*Object List*/}
             <ListGroup>
-              {this.state.objects().map(object => (
+              {this.state.objects.map(object => (
                 <ListGroupItem key={object.id} className="list-group-item">
                   <h1>{object.name}</h1>
                   {object.description}
