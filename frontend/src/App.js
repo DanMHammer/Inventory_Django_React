@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Container, Col, Row, ListGroup, ListGroupItem } from "reactstrap";
-import ObjectDisplay from "./components/ObjectDisplay";
+import Tabs from "./components/Tabs";
 
 class App extends Component {
   state = {
@@ -22,13 +22,7 @@ class App extends Component {
   }
 
   render() {
-    return (
-      <Container fluid>
-        <Row>
-          <ObjectDisplay objects={this.state.objects} />
-        </Row>
-      </Container>
-    );
+    return <Tabs objects={this.state.objects} />;
   }
 }
 
