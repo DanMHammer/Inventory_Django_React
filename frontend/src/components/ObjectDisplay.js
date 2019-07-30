@@ -22,3 +22,5 @@ class ObjectDisplay extends React.Component {
     );
   }
 }
+
+export default ObjectDisplay;
