@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f3f6653-a5f7-4d2a-95bf-41b17fc1e5f4" name="Default" comment="">
+    <list default="true" id="8f3f6653-a5f7-4d2a-95bf-41b17fc1e5f4" name="Default" comment="Corrected issue in index.js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,10 +15,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+          <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/inventory/settings.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-303">
+                <state relative-caret-position="-762">
                   <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
                   <folding>
                     <element signature="e#310#319#0" expanded="true" />
@@ -28,7 +27,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="serializers.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/data/serializers.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="459">
@@ -154,7 +153,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -297,11 +296,25 @@
       <option name="project" value="LOCAL" />
       <updated>1564505581922</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Corrected issue in index.js">
+      <created>1564505945568</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1564505945569</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Corrected issue in index.js">
+      <created>1564506452032</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1564506452032</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -326,14 +339,14 @@
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Python Console" order="0" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32897604" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="3" />
@@ -364,16 +377,6 @@
           <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
           <folding>
             <element signature="e#633#665#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inventory/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-303">
-          <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
-          <folding>
-            <element signature="e#310#319#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -431,6 +434,16 @@
           <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-762">
+          <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+          <folding>
+            <element signature="e#310#319#0" expanded="true" />
           </folding>
         </state>
       </provider>
