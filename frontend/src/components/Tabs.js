@@ -15,7 +15,7 @@ import {
   Col
 } from "reactstrap";
 import classnames from "classnames";
-import ObjectDisplay from "./components/ObjectDisplay";
+import ObjectDisplay from "./ObjectDisplay";
 
 export default class Tabs extends React.Component {
   constructor(props) {
