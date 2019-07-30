@@ -25,7 +25,7 @@ class LocationSerializer(serializers.ModelSerializer):
         ]
 
 
-class ObjectSerializer(serializers.ObjecetSeiralizer):
+class ObjectSerializer(serializers.ModelSerializer):
     class Meta:
         model = Object
         fields = [
