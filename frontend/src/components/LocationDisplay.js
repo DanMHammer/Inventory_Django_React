@@ -19,5 +19,5 @@ class LocationDisplay extends React.Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: process.env.GoogleAPIKey
+  apiKey: JSON.stringify(process.env.GoogleAPIKey)
 })(LocationDisplay);

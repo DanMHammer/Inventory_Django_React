@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f3f6653-a5f7-4d2a-95bf-41b17fc1e5f4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/LocationDisplay.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Tabs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/LocationDisplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/LocationDisplay.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,7 +19,7 @@
           <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/inventory/settings.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
+                <state relative-caret-position="850">
                   <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
                   <folding>
                     <element signature="e#310#319#0" expanded="true" />
@@ -378,7 +377,21 @@
       <option name="project" value="LOCAL" />
       <updated>1564513451046</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Added Google Maps to LocationDisplay">
+      <created>1564514600745</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1564514600745</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Fixed google api issue">
+      <created>1564514941315</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1564514941315</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -444,7 +457,9 @@
     <MESSAGE value="Added navigation tabs" />
     <MESSAGE value="Fixed export" />
     <MESSAGE value="Fixed props" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed props" />
+    <MESSAGE value="Added Google Maps to LocationDisplay" />
+    <MESSAGE value="Fixed google api issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed google api issue" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/inventory/settings.py">
@@ -581,22 +596,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/inventory/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+          <folding>
+            <element signature="e#310#319#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inventory/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
-          <folding>
-            <element signature="e#310#319#0" expanded="true" />
           </folding>
         </state>
       </provider>
