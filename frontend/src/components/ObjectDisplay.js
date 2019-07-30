@@ -8,10 +8,11 @@ class ObjectDisplay extends React.Component {
         <Row>
           <Col sm={{ size: 8, offset: 2 }}>
             {/*Object List*/}
+            <ObjectDisplay objects={this.state.objects} />
             <ListGroup>
               {this.props.objects.map(object => (
                 <ListGroupItem key={object.id} className="list-group-item">
-                  <h1>{object.name}</h1>
+                  <h1>{object.object_name}</h1>
                   <p>{object.description}</p>
                 </ListGroupItem>
               ))}

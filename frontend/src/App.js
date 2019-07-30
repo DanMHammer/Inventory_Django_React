@@ -22,7 +22,13 @@ class App extends Component {
   }
 
   render() {
-    return <ObjectDisplay objects={this.state.objects} />;
+    return (
+      <Container fluid>
+        <Row>
+          <ObjectDisplay objects={this.state.objects} />
+        </Row>
+      </Container>
+    );
   }
 }
 
