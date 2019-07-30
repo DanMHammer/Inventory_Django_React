@@ -7,8 +7,8 @@ from data.views import UserViewSet, LocationViewSet, ObjectViewSet
 
 router = routers.DefaultRouter()
 router.register('users', UserViewSet)
-router.register('movies', LocationViewSet)
-router.register('ratings', ObjectViewSet)
+router.register('locations', LocationViewSet)
+router.register('objects', ObjectViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),

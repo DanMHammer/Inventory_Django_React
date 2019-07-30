@@ -48,12 +48,12 @@ class LocationViewSet(viewsets.ModelViewSet):
     queryset = Location.objects.all()
     serializer_class = LocationSerializer
     authentication_classes = (TokenAuthentication, )
-    permission_classes = (IsAuthenticated, )
+    permission_classes = (AllowAny, )
 
 
 class ObjectViewSet(viewsets.ModelViewSet):
     queryset = Object.objects.all()
     serializer_class = ObjectSerializer
     authentication_classes = (TokenAuthentication, )
-    permission_classes = (IsAuthenticated, )
+    permission_classes = (AllowAny, )
 
