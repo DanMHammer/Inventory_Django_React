@@ -16,18 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include, re_path
 
-from rest_framework import routers
-
-from data.views import *
-
-router = routers.DefaultRouter()
-router.register('users', UserViewSet)
-router.register('movies', LocationViewSet)
-router.register('ratings', ObjectViewSet)
+from data.views import FrontendAppView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/', include('api.urls')),
     re_path(r'^', FrontendAppView.as_view()),
-    path('api/', include(router.urls))
-
 ]
