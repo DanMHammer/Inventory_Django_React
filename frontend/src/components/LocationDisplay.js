@@ -1,7 +1,6 @@
 //Reference: https://dev.to/jessicabetts/how-to-use-google-maps-api-and-react-js-26c2
 import React from "react";
 import { Map, GoogleApiWrapper } from "google-maps-react";
-const apikey = process.env.GoogleAPIKey;
 
 class LocationDisplay extends React.Component {
   render() {
@@ -20,5 +19,5 @@ class LocationDisplay extends React.Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: { apiKey }
-})(MapContainer);
+  apiKey: process.env.GoogleAPIKey
+})(LocationDisplay);
