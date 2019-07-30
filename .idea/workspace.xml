@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f3f6653-a5f7-4d2a-95bf-41b17fc1e5f4" name="Default" comment="" />
+    <list default="true" id="8f3f6653-a5f7-4d2a-95bf-41b17fc1e5f4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/LocationDisplay.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Tabs.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -360,7 +364,21 @@
       <option name="project" value="LOCAL" />
       <updated>1564513010630</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Fixed export">
+      <created>1564513154531</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1564513154531</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Fixed props">
+      <created>1564513451046</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1564513451046</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -425,7 +443,8 @@
     <MESSAGE value="tweaked formatting" />
     <MESSAGE value="Added navigation tabs" />
     <MESSAGE value="Fixed export" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed export" />
+    <MESSAGE value="Fixed props" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed props" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/inventory/settings.py">

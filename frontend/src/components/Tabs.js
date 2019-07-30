@@ -16,6 +16,7 @@ import {
 } from "reactstrap";
 import classnames from "classnames";
 import ObjectDisplay from "./ObjectDisplay";
+import LocationDisplay from "./LocationDisplay";
 
 export default class Tabs extends React.Component {
   constructor(props) {
@@ -63,7 +64,9 @@ export default class Tabs extends React.Component {
           <TabPane tabId="1">
             <ObjectDisplay objects={this.props.objects} />
           </TabPane>
-          <TabPane tabId="2">Locations</TabPane>
+          <TabPane tabId="2">
+            <LocationDisplay />
+          </TabPane>
         </TabContent>
       </div>
     );
