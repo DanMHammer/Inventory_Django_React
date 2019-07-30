@@ -5,6 +5,15 @@ from django.http import HttpResponse
 from django.views.generic import View
 from django.conf import settings
 
+from .models import *
+from .serializers import *
+
+from rest_framework import viewsets, status
+from rest_framework.decorators import action
+from rest_framework.response import Response
+from rest_framework.authentication import TokenAuthentication
+from rest_framework.permissions import IsAuthenticated, AllowAny
+
 
 class FrontendAppView(View):
     """
@@ -27,4 +36,24 @@ class FrontendAppView(View):
                 """,
                 status=501,
             )
+
+
+class UserViewSet(viewsets.ModelViewSet):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
+    permission_classes = (AllowAny, )
+
+
+class LocationViewSet(viewsets.ModelViewSet):
+    queryset = Location.objects.all()
+    serializer_class = LocationSerializer
+    authentication_classes = (TokenAuthentication, )
+    permission_classes = (IsAuthenticated, )
+
+
+class ObjectViewSet(viewsets.ModelViewSet):
+    queryset = Object.objects.all()
+    serializer_class = ObjectSerializer
+    authentication_classes = (TokenAuthentication, )
+    permission_classes = (IsAuthenticated, )
 

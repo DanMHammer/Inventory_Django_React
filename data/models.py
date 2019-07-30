@@ -24,6 +24,9 @@ class Location(OwnedModel):
     created_at = models.DateField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
+    def __str__(self):
+        return self.location_name
+
 
 class Object(OwnedModel):
     tag = models.CharField(max_length=12)
@@ -34,4 +37,9 @@ class Object(OwnedModel):
     created_at = models.DateField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     location = models.ForeignKey(Location, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.object_name
+
+
 
