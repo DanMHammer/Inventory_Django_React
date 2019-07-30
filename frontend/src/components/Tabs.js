@@ -16,7 +16,7 @@ import {
 } from "reactstrap";
 import classnames from "classnames";
 import ObjectDisplay from "./ObjectDisplay";
-import LocationDisplay from "./LocationDisplay";
+import GoogleAPIWrapper from "./LocationDisplay";
 
 export default class Tabs extends React.Component {
   constructor(props) {
@@ -65,7 +65,7 @@ export default class Tabs extends React.Component {
             <ObjectDisplay objects={this.props.objects} />
           </TabPane>
           <TabPane tabId="2">
-            <LocationDisplay />
+            <GoogleAPIWrapper />
           </TabPane>
         </TabContent>
       </div>
