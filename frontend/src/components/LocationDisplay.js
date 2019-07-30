@@ -1,4 +1,5 @@
 import { Map, InfoWindow, Marker, GoogleApiWrapper } from "google-maps-react";
+import React, { Component } from "react";
 require("dotenv").config();
 
 export class MapContainer extends Component {

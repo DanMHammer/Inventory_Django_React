@@ -19,7 +19,7 @@
           <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/inventory/settings.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="850">
+                <state relative-caret-position="-272">
                   <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
                   <folding>
                     <element signature="e#310#319#0" expanded="true" />
@@ -104,8 +104,8 @@
           <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/data/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="432">
-                  <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+                <state relative-caret-position="449">
+                  <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
                   <folding>
                     <element signature="e#0#35#0" expanded="true" />
                   </folding>
@@ -391,20 +391,34 @@
       <option name="project" value="LOCAL" />
       <updated>1564514941315</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Trying stringify for api key">
+      <created>1564515494178</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1564515494178</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Different method for locationdisplay">
+      <created>1564516201692</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1564516201692</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32897604" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -459,7 +473,9 @@
     <MESSAGE value="Fixed props" />
     <MESSAGE value="Added Google Maps to LocationDisplay" />
     <MESSAGE value="Fixed google api issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed google api issue" />
+    <MESSAGE value="Trying stringify for api key" />
+    <MESSAGE value="Different method for locationdisplay" />
+    <option name="LAST_COMMIT_MESSAGE" value="Different method for locationdisplay" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/inventory/settings.py">
@@ -598,7 +614,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inventory/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
+        <state relative-caret-position="-272">
           <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
           <folding>
             <element signature="e#310#319#0" expanded="true" />
@@ -611,8 +627,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+        <state relative-caret-position="449">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
