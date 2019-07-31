@@ -65,7 +65,7 @@ export default class Tabs extends React.Component {
             <ObjectDisplay objects={this.props.objects} />
           </TabPane>
           <TabPane tabId="2">
-            <MapContainer />
+            <GoogleApiWrapper />
           </TabPane>
         </TabContent>
       </div>
