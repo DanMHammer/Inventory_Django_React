@@ -31,8 +31,8 @@
           <file leaf-file-name="serializers.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/data/serializers.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="527">
-                  <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+                <state relative-caret-position="612">
+                  <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
                   <folding>
                     <element signature="e#0#38#0" expanded="true" />
                   </folding>
@@ -438,7 +438,21 @@
       <option name="project" value="LOCAL" />
       <updated>1564585169139</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Added table for Objects">
+      <created>1564586139079</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1564586139079</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Imported Table from reactstrap">
+      <created>1564586315322</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1564586315322</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -497,7 +511,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added models" />
     <MESSAGE value="Added models to admin" />
     <MESSAGE value="Added blank=True to address lines" />
     <MESSAGE value="Added Serializers and ViewSets for API" />
@@ -521,7 +534,9 @@
     <MESSAGE value="Testing with hard coded google api key" />
     <MESSAGE value="Fixed typo" />
     <MESSAGE value="Commented out location display components for now" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commented out location display components for now" />
+    <MESSAGE value="Added table for Objects" />
+    <MESSAGE value="Imported Table from reactstrap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Imported Table from reactstrap" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/inventory/settings.py">
@@ -913,8 +928,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        <state relative-caret-position="612">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>

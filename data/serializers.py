@@ -26,6 +26,8 @@ class LocationSerializer(serializers.ModelSerializer):
 
 
 class ObjectSerializer(serializers.ModelSerializer):
+    location = serializers.StringRelatedField()
+
     class Meta:
         model = Object
         fields = [
