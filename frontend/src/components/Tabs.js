@@ -16,7 +16,8 @@ import {
 } from "reactstrap";
 import classnames from "classnames";
 import ObjectDisplay from "./ObjectDisplay";
-import LocationDisplay, { MapContainer } from "./LocationDisplay";
+import LocationDisplay from "./LocationDisplay";
+import GoogleApiWrapper from "./LocationDisplay";
 
 export default class Tabs extends React.Component {
   constructor(props) {
