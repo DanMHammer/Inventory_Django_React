@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import { Container, Col, Row, ListGroup, ListGroupItem } from "reactstrap";
+import { Container, Table } from "reactstrap";
 
-export default class ObjectDisplay extends React.Component {
+export default class ObjectDisplay extends Component {
   render() {
     return (
       <Container fluid>
