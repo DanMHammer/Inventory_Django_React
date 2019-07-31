@@ -5,19 +5,27 @@ export default class ObjectDisplay extends React.Component {
   render() {
     return (
       <Container fluid>
-        <Row>
-          <Col sm={{ size: 8, offset: 2 }}>
-            {/*Object List*/}
-            <ListGroup>
-              {this.props.objects.map(object => (
-                <ListGroupItem key={object.id} className="list-group-item">
-                  <h1>{object.object_name}</h1>
-                  <p>{object.description}</p>
-                </ListGroupItem>
-              ))}
-            </ListGroup>
-          </Col>
-        </Row>
+        {/*Object Table*/}
+        <Table hover>
+          <thead>
+            <tr>
+              <th>Asset Tag</th>
+              <th>Object Name</th>
+              <th>Object Description</th>
+              <th>Location</th>
+            </tr>
+          </thead>
+          <tbody>
+            {this.props.objects.map(object => (
+              <tr key={object.id}>
+                <th scope="row">{object.tag}</th>
+                <td>{object.object_name}</td>
+                <td>{object.description}</td>
+                <td>@{object.location}</td>
+              </tr>
+            ))}
+          </tbody>
+        </Table>
       </Container>
     );
   }

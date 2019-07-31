@@ -29,6 +29,6 @@ class ObjectSerializer(serializers.ModelSerializer):
     class Meta:
         model = Object
         fields = [
-            'owner', 'object_name', 'description', 'model_number', 'purchased', 'location'
+            'tag','owner', 'object_name', 'description', 'model_number', 'purchased', 'location'
         ]
 
